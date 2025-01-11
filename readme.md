@@ -25,3 +25,7 @@ Saya ingin mengajak teman siapapun itu, kalo mau chat wa saya
 WhatsApp: [Chat](https://wa.me/message/UYPM2Q2UEML2C1)
 
 Telegram: [Chat](https://t.me/TarnaWijaya)
+
+-------------------------------------------------------------------------
+  Nikmati Menggunakan TarzAI x WiszAI
+-------------------------------------------------------------------------
