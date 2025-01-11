@@ -14,7 +14,7 @@
 
 - [x] Bisa Membantu anda
 
-- [ ] Pembaruan API
+- [x] Pembaruan API
 
 - [x] Watermark
 
