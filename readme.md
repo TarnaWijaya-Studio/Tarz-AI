@@ -7,7 +7,7 @@
 </a>
 
 # Links
-https://tarnawijaya-studio.github.io/Tarz-AI
+website: https://tarnawijaya-studio.github.io/Tarz-AI
 
 ## Fitur:
 - [x] Saya bisa membalas chat anda
