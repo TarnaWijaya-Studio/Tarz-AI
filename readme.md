@@ -1,5 +1,11 @@
 # TarzAI
 "TarzAI" ini belum canggih mungkin saya ada waktu untuk membuat API sendiri mungkin berapa tahun lagi, ini sangat sulit bagi saya sendiri. yah semoga saya bisa.
+
+## contributors
+<a href="https://github.com/TarnaWijaya-Studio/Tarz-AI/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=TarnaWijaya-Studio/Tarz-AI" />
+</a>
+
 # Links
 https://tarnawijaya-studio.github.io/Tarz-AI
 
