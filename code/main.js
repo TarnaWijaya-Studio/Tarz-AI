@@ -40,7 +40,7 @@ async function sendMessage() {
         <img src="https://i.ibb.co/Z2XkjgQ/1734232863896.jpg" class="profile-img" alt="User">
     `;
     chatBox.appendChild(userMessageContainer);
-    
+
     saveMessage("user", text);
 
     userInput.value = "";
@@ -56,8 +56,8 @@ async function sendMessage() {
 
     try {
         let reply;
-
         const greetings = ["halo", "hay", "p", "hi", "hai", "hello", "hy"];
+
         if (greetings.includes(text.toLowerCase())) {
             reply = "Hai, apa kabar? Saya adalah asisten TarzAI-TarnaWijaya siap membantu!";
         } else if (text.toLowerCase().includes("developer kau siapa") || text.toLowerCase().includes("developermu siapa") || text.toLowerCase().includes("siapa pembuatmu") || text.toLowerCase().includes("pembuat kamu siapa") || text.toLowerCase().includes("siapa developermu")) {
@@ -69,8 +69,8 @@ async function sendMessage() {
         } else if (text.toLowerCase().includes("siapa tarna") || text.toLowerCase().includes("siapa tarnawijaya") || text.toLowerCase().includes("siapakah tarna") || text.toLowerCase().includes("siapakah tarnawijaya") || text.toLowerCase().includes("who tarna") || text.toLowerCase().includes("who tarnawijaya")) {
             reply = "TarnaWijaya & Wisnu adalah penciptaku, sosok yang hebat dalam bidang informatika menurut saya. Saya sangat kagum dengan kemampuannya membuat saya ini!";
         } else if (["nama", "nama kamu siapa", "siapa namamu", "siapa nama kau", "siapa namakau", "namamu"].includes(text.toLowerCase())) {
-            reply = "Nama saya adalah TarzAI, yang dinamakan oleh developernya.";}
-            else {
+            reply = "Nama saya adalah TarzAI, yang dinamakan oleh developernya.";
+        } else {
             const apiKey = "AIzaSyC0Cjd5U_kIM9tvqxfjjvQ_MlhabjtxA30";
             const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash-latest:generateContent?key=${apiKey}`, {
                 method: "POST",
@@ -98,6 +98,7 @@ async function sendMessage() {
 
         saveMessage("ai", reply);
     } catch (error) {
+        console.error("Error:", error);
         chatBox.removeChild(loadingMessage);
         const errorMessage = document.createElement("div");
         errorMessage.className = "message-container ai-container";
