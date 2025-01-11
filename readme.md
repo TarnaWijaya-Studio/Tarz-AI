@@ -20,8 +20,6 @@ https://tarnawijaya-studio.github.io/Tarz-AI
 
 - [x] Saya bisa membantu anda
 
-- [x] Bisa Membantu anda
-
 - [x] Pembaruan API
 
 - [x] Watermark
