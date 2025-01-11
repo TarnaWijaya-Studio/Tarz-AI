@@ -1,5 +1,7 @@
 # TarzAI
 "TarzAI" ini belum canggih mungkin saya ada waktu untuk membuat API sendiri mungkin berapa tahun lagi, ini sangat sulit bagi saya sendiri. yah semoga saya bisa.
+# Links
+https://tarnawijaya-studio.github.io/Tarz-AI
 
 ## Fitur:
 - [x] Saya bisa membalas chat anda
