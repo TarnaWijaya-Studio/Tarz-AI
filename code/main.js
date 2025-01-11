@@ -61,14 +61,24 @@ async function sendMessage() {
         if (greetings.includes(text.toLowerCase())) {
             reply = "Hai, apa kabar? Saya adalah asisten TarzAI-TarnaWijaya siap membantu!";
         } else if (text.toLowerCase().includes("developer kau siapa") || text.toLowerCase().includes("developermu siapa") || text.toLowerCase().includes("siapa pembuatmu") || text.toLowerCase().includes("pembuat kamu siapa") || text.toLowerCase().includes("siapa developermu")) {
-            reply = "Saya dibuat oleh TarnaWijaya, seorang programmer muda, yang sedang mengembangkan berbagai aplikasi dan chatbot!";
+            reply = "Saya dibuat oleh TarnaWijaya & Wisnu, seorang programmer muda, yang sedang mengembangkan berbagai aplikasi dan chatbot!";
         } else if (text.toLowerCase().includes(".menu") || text.toLowerCase().includes("menu")) {
             reply = "All-Menu👇👇<br>.status :untuk melihat status admin<br> .get-apikey: untuk mendapatkan apikey secara gratis";
         } else if (text.toLowerCase().includes(".get-apikey")) {
             reply = "APIKEY Gemini:<br> `AIzaSyC0Cjd5U_kIM9tvqxfjjvQ_MlhabjtxA30`";
-        } else if (text.toLowerCase().includes("siapa tarna") || text.toLowerCase().includes("siapa tarnawijaya") || text.toLowerCase().includes("siapakah tarna") || text.toLowerCase().includes("siapakah tarnawijaya") || text.toLowerCase().includes("who tarna") || text.toLowerCase().includes("who tarnawijaya")) {
-            reply = "TarnaWijaya & Wisnu adalah penciptaku, sosok yang hebat dalam bidang informatika menurut saya. Saya sangat kagum dengan kemampuannya membuat saya ini!";
-        } else if (["nama", "nama kamu siapa", "siapa namamu", "siapa nama kau", "siapa namakau", "namamu"].includes(text.toLowerCase())) {
+        } else if (text.toLowerCase().includes("siapa tarna") || text.toLowerCase().includes("siapa tarnawijaya") || text.toLowerCase().includes("siapakah tarna") || text.toLowerCase().includes("siapakah tarnawijaya") || text.toLowerCase().includes("who tarna") || text.toLowerCase().includes("tarna") || text.toLowerCase().includes("tarnawijaya") || text.toLowerCase().includes("who tarnawijaya")) {
+            reply = "TarnaWijaya adalah penciptaku, sosok yang hebat dalam bidang informatika menurut saya. Saya sangat kagum dengan kemampuannya membuat saya ini!";
+        }
+        else if (text.toLowerCase().includes("siapa wisnu") ||
+        text.toLowerCase().includes("siapa wisnu") ||
+        text.toLowerCase().includes("siapakah wisnu") ||
+        text.toLowerCase().includes("siapakah wisnu") ||
+        text.toLowerCase().includes("who wisnu") ||
+        text.toLowerCase().includes("wisnu") ||
+        text.toLowerCase().includes("who wisnu")) {
+            reply = "Wisnu adalah konfigurasi, sosok yang hebat dalam bidang informatika";
+        }
+        else if (["nama", "nama kamu siapa", "siapa namamu", "siapa nama kau", "siapa namakau", "namamu"].includes(text.toLowerCase())) {
             reply = "Nama saya adalah TarzAI, yang dinamakan oleh developernya.";
         } else {
             const apiKey = "AIzaSyC0Cjd5U_kIM9tvqxfjjvQ_MlhabjtxA30";
