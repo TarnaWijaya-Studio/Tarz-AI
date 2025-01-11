@@ -64,7 +64,7 @@ async function sendMessage() {
         } else if (text.toLowerCase().includes("developer kau siapa") || text.toLowerCase().includes("developermu siapa") || text.toLowerCase().includes("siapa pembuatmu") || text.toLowerCase().includes("pembuat kamu siapa") || text.toLowerCase().includes("siapa developermu")) {
             reply = "Saya dibuat oleh TarnaWijaya & Wisnu, seorang programmer muda, yang sedang mengembangkan berbagai aplikasi dan chatbot!";
         } else if (text.toLowerCase().includes(".menu") || text.toLowerCase().includes("menu")) {
-            reply = "All-Menu👇👇<br>.status :untuk melihat status admin<br> .get-apikey: untuk mendapatkan apikey secara gratis<br>.join-grup";
+            reply = "All-Menu👇👇<br>.status :untuk melihat status admin<br>.get-apikey: untuk mendapatkan apikey secara gratis<br>.join-grup :untuk bergabung ke Grups WhatsApp";
         } 
         else if (text.toLowerCase().includes(".join-grup")) {
             reply = "Join Grups WhatsApp:<br>`https://chat.whatsapp.com/Gomu4BhzluT3gaXRHmNs4n`";
