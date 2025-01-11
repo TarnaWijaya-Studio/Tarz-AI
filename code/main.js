@@ -60,11 +60,11 @@ async function sendMessage() {
         const greetings = ["halo", "hay", "p", "hi", "hai", "hello", "hy"];
 
         if (greetings.includes(text.toLowerCase())) {
-            reply = "Hai, apa kabar? Saya adalah asisten TarzAI-TarnaWijaya siap membantu!";
+            reply = "Hai, apa kabar? Saya adalah asisten TarzAI-TarnaWijaya siap membantu!<br> jika anda ingin menampilkan opsi ketik * .menu / menu";
         } else if (text.toLowerCase().includes("developer kau siapa") || text.toLowerCase().includes("developermu siapa") || text.toLowerCase().includes("siapa pembuatmu") || text.toLowerCase().includes("pembuat kamu siapa") || text.toLowerCase().includes("siapa developermu")) {
             reply = "Saya dibuat oleh TarnaWijaya & Wisnu, seorang programmer muda, yang sedang mengembangkan berbagai aplikasi dan chatbot!";
         } else if (text.toLowerCase().includes(".menu") || text.toLowerCase().includes("menu")) {
-            reply = "All-Menu👇👇<br>.status :untuk melihat status admin<br>.get-apikey: untuk mendapatkan apikey secara gratis<br>.join-grup :untuk bergabung ke Grups WhatsApp";
+            reply = "All-Menu👇👇<br>.status :untuk melihat status admin<br>.get-apikey: untuk mendapatkan apikey secara gratis<br>.join-grup :untuk bergabung ke Grups WhatsApp<br> down-app : download apk/apl";
         } 
         else if (text.toLowerCase().includes(".join-grup")) {
             reply = "Join Grups WhatsApp:<br>`https://chat.whatsapp.com/Gomu4BhzluT3gaXRHmNs4n`";
