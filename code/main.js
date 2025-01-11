@@ -37,7 +37,7 @@ async function sendMessage() {
     userMessageContainer.className = "message-container user-container";
     userMessageContainer.innerHTML = `
         <div class="message user">${text}</div>
-        <img src="https://i.ibb.co/Z2XkjgQ/1734232863896.jpg" class="profile-img" alt="User">
+        <img src="../img/user.png" class="profile-img" alt="User">
     `;
     chatBox.appendChild(userMessageContainer);
 
@@ -48,7 +48,7 @@ async function sendMessage() {
     const loadingMessage = document.createElement("div");
     loadingMessage.className = "message-container ai-container";
     loadingMessage.innerHTML = `
-        <img src="https://i.ibb.co/41xKxg4/pp.webp" class="profile-img" alt="AI">
+        <img src="../img/pp.png" class="profile-img" alt="AI">
         <div class="message ai">• • •</div>
     `;
     chatBox.appendChild(loadingMessage);
