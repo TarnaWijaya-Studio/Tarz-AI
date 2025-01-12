@@ -90,6 +90,15 @@ async function sendMessage() {
         text.toLowerCase().includes("who wisnu")) {
             reply = "Wisnu adalah konfigurasi, sosok yang hebat dalam bidang informatika";
         }
+        else if (text.toLowerCase().includes("siapa rnft") ||
+        text.toLowerCase().includes("siapa rnft") ||
+        text.toLowerCase().includes("siapakah rnft") ||
+        text.toLowerCase().includes("siapakah rnft") ||
+        text.toLowerCase().includes("who rnft") ||
+        text.toLowerCase().includes("rnft") ||
+        text.toLowerCase().includes("who rnft")) {
+            reply = "rnft adalah seorang pemula, dan ingin berlajar pada saat ia gabut";
+        }
         else if (["nama", "nama kamu siapa", "siapa namamu", "siapa nama kau", "siapa namakau", "namamu"].includes(text.toLowerCase())) {
             reply = "Nama saya adalah TarzAI, yang dinamakan oleh developernya.";
         } else {
