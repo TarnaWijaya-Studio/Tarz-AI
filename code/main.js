@@ -64,14 +64,18 @@ async function sendMessage() {
         } else if (text.toLowerCase().includes("developer kau siapa") || text.toLowerCase().includes("developermu siapa") || text.toLowerCase().includes("siapa pembuatmu") || text.toLowerCase().includes("pembuat kamu siapa") || text.toLowerCase().includes("siapa developermu")) {
             reply = "Saya dibuat oleh TarnaWijaya & Wisnu, seorang programmer muda, yang sedang mengembangkan berbagai aplikasi dan chatbot!";
         } else if (text.toLowerCase().includes(".menu") || text.toLowerCase().includes("menu")) {
-            reply = "All-Menu👇👇<br>.status :untuk melihat status admin<br>.get-apikey: untuk mendapatkan apikey secara gratis<br>.join-grup :untuk bergabung ke Grups WhatsApp<br> down-app : download apk/apl";
+            reply = "All-Menu👇👇<br>.status :untuk melihat status admin<br>.get-apikey: untuk mendapatkan apikey secara gratis<br>.join-grup :untuk bergabung ke Grups WhatsApp<br>.down-app : download apk/apl";
         } 
         else if (text.toLowerCase().includes(".join-grup")) {
             reply = "Join Grups WhatsApp:<br>`https://chat.whatsapp.com/Gomu4BhzluT3gaXRHmNs4n`";
         }
         else if (text.toLowerCase().includes(".get-apikey")) {
             reply = "APIKEY Gemini:<br> `AIzaSyC0Cjd5U_kIM9tvqxfjjvQ_MlhabjtxA30`";
-        } else if (text.toLowerCase().includes("siapa tarna") || text.toLowerCase().includes("siapa tarnawijaya") || text.toLowerCase().includes("siapakah tarna") || text.toLowerCase().includes("siapakah tarnawijaya") || text.toLowerCase().includes("who tarna") || text.toLowerCase().includes("tarna") || text.toLowerCase().includes("tarnawijaya") || text.toLowerCase().includes("who tarnawijaya")) {
+        }
+        else if (text.toLowerCase().includes(".down-app")) {
+            reply = "Join Grups WhatsApp:<br>`https://chat.whatsapp.com/Gomu4BhzluT3gaXRHmNs4n`";
+        }
+        else if (text.toLowerCase().includes("siapa tarna") || text.toLowerCase().includes("siapa tarnawijaya") || text.toLowerCase().includes("siapakah tarna") || text.toLowerCase().includes("siapakah tarnawijaya") || text.toLowerCase().includes("who tarna") || text.toLowerCase().includes("tarna") || text.toLowerCase().includes("tarnawijaya") || text.toLowerCase().includes("who tarnawijaya")) {
             reply = "TarnaWijaya adalah penciptaku, sosok yang hebat dalam bidang informatika menurut saya. Saya sangat kagum dengan kemampuannya membuat saya ini!";
         }
         else if (text.toLowerCase().includes("siapa wisnu") ||
