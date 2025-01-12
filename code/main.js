@@ -73,7 +73,7 @@ async function sendMessage() {
             reply = "APIKEY Gemini:<br> `AIzaSyC0Cjd5U_kIM9tvqxfjjvQ_MlhabjtxA30`";
         }
         else if (text.toLowerCase().includes(".down-app")) {
-            reply = "Join Grups WhatsApp:<br>`https://chat.whatsapp.com/Gomu4BhzluT3gaXRHmNs4n`";
+            reply = "Download apk ai:<br>`https://github.com/TarnaWijaya/Tarz-AI/releases/tag/Download-Apk`";
         }
         else if (text.toLowerCase().includes("siapa tarna") || text.toLowerCase().includes("siapa tarnawijaya") || text.toLowerCase().includes("siapakah tarna") || text.toLowerCase().includes("siapakah tarnawijaya") || text.toLowerCase().includes("who tarna") || text.toLowerCase().includes("tarna") || text.toLowerCase().includes("tarnawijaya") || text.toLowerCase().includes("who tarnawijaya")) {
             reply = "TarnaWijaya adalah penciptaku, sosok yang hebat dalam bidang informatika menurut saya. Saya sangat kagum dengan kemampuannya membuat saya ini!";
