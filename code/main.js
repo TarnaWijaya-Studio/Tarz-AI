@@ -70,7 +70,7 @@ async function sendMessage() {
             reply = "Join Grups WhatsApp:<br>`https://chat.whatsapp.com/Gomu4BhzluT3gaXRHmNs4n`";
         }
         else if (text.toLowerCase().includes(".status")) {
-            reply = "Tarna Wijaya <br> Wisnu <br> Rnft";
+            reply = "<p>admin:</p><br>Tarna Wijaya<br>Wisnu<br>Rnft<br>VannXD";
         }
         else if (text.toLowerCase().includes(".get-apikey")) {
             reply = "APIKEY Gemini:<br> `AIzaSyC0Cjd5U_kIM9tvqxfjjvQ_MlhabjtxA30`";
