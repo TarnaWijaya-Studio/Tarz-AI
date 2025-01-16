@@ -70,7 +70,7 @@ async function sendMessage() {
             reply = "Join Grups WhatsApp:<br>`https://chat.whatsapp.com/Gomu4BhzluT3gaXRHmNs4n`";
         }
         else if (text.toLowerCase().includes(".status")) {
-            reply = "<p>admin:</p><br>Tarna Wijaya<br>Wisnu<br>Rnft<br>VannXD";
+            reply = "<p>admin:</p><br>Tarna Wijaya<br>Wisnu<br>Rnft<br>Vann";
         }
         else if (text.toLowerCase().includes(".get-apikey")) {
             reply = "APIKEY Gemini:<br> `AIzaSyC0Cjd5U_kIM9tvqxfjjvQ_MlhabjtxA30`";
@@ -98,6 +98,15 @@ async function sendMessage() {
         text.toLowerCase().includes("rnft") ||
         text.toLowerCase().includes("who rnft")) {
             reply = "rnft adalah seorang pemula, dan ingin berlajar pada saat ia gabut";
+        }
+else if (text.toLowerCase().includes("siapa vann") ||
+        text.toLowerCase().includes("siapa vann") ||
+        text.toLowerCase().includes("siapakah vann") ||
+        text.toLowerCase().includes("siapakah vann") ||
+        text.toLowerCase().includes("who vann") ||
+        text.toLowerCase().includes("vann") ||
+        text.toLowerCase().includes("who vann")) {
+            reply = "vann adalah seorang pemula, dan ingin berlajar pada saat ia gabut";
         }
         else if (["nama", "nama kamu siapa", "siapa namamu", "siapa nama kau", "siapa namakau", "namamu"].includes(text.toLowerCase())) {
             reply = "Nama saya adalah TarzAI, yang dinamakan oleh developernya.";
